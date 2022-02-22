@@ -123,6 +123,17 @@ u,
   font-size: 2rem;
   font-weight: bold;
 }
+.tab {
+  tab-size: 8;
+}
+.red-text {
+  color: red;
+}
+.code,
+.webpage {
+  margin: 0 0.25rem 0 0.25rem;
+  font-size: 1.5rem;
+}
 @media (max-width: 1500px) {
   .work-links {
     width: 18vw;
