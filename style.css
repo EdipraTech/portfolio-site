@@ -263,7 +263,7 @@ u,
     width: 90vw;
     height: auto;
     background-color: #f7539475;
-    border-radius: 1rem !important;
+    border-radius: 1rem;
   }
 }
 @media (max-width: 375px) {
