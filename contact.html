@@ -36,27 +36,38 @@
         </div>
       </div>
     </header>
-    <div class="container middle-align">
+    <div class="container middle-align overlay">
       <form
         action="https://formsubmit.co/djarpide@gmail.com"
         method="POST"
         class="container middle-align"
       >
-        <br />
-        <input type="text" name="name" placeholder="Name" required />
-        <input type="email" name="email" placeholder="Email Address" required />
+        <input
+          type="text"
+          name="name"
+          placeholder="Name"
+          class="form-style name"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email Address"
+          class="form-style email"
+          required
+        />
         <input
           type="hidden"
           name="_next"
           value="https://edipra98.github.io/portfolio-site/thank-you.html"
         />
-        <input
-          type="text"
+        <textarea
           name="message"
           placeholder="Your Message Here"
+          class="form-style message"
           required
-        />
-        <button type="submit">Send</button>
+        ></textarea>
+        <button type="submit" class="form-style btn">Send</button>
       </form>
     </div>
     <footer class="footer">
