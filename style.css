@@ -201,7 +201,7 @@ u,
     height: 30vw;
   }
   .overlay {
-    width: 75vh;
+    width: 90vw;
     height: auto;
     background-color: #f7539475;
     border-radius: 1rem;
@@ -260,10 +260,10 @@ u,
     height: 60vw;
   }
   .overlay {
-    width: 75vh;
+    width: 90vw;
     height: auto;
     background-color: #f7539475;
-    border-radius: 1rem;
+    border-radius: 1rem !important;
   }
 }
 @media (max-width: 375px) {
@@ -272,7 +272,7 @@ u,
     height: 120vw;
   }
   .overlay {
-    width: 75vh;
+    width: 90vw;
     height: auto;
     background-color: #f7539475;
     border-radius: 1rem;
