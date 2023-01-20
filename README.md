@@ -1,3 +1,3 @@
 # Github for my portfolio website
 
-website has been moved to http://edipra.tech:8000
+website has been moved to http://edipra.tech
